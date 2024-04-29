@@ -184,7 +184,7 @@ Pkg.add("JuMP")
 ```
 
 ```
-Pkg.add("HiGH")
+Pkg.add("HiGHS")
 ```
 
 ## 5. Testando
@@ -194,11 +194,11 @@ Vamos agora testar os comandos a seguir para verificar se tudo está funcionando
 Incluiremos os comandos para verificar se a integração entre *Julia* e o *Gurobi* está funcionando adequadamente:
 
 ```
-using JuMP, HiGH
+using JuMP, HiGHS
 ```
 
 ```
-model = direct_model(HiGH.Optimizer())
+model = direct_model(HiGHS.Optimizer())
 ```
 
 Deveremos obter as seguintes mensagens:
@@ -245,10 +245,10 @@ $10x_1+3x_2\leq 30$
 
 ```
 ## Importar pacotes necessários
-using JuMP, HiGH
+using JuMP, HiGHS
 
 ## Estabelecer o modelo para otimização
-model = Model(HiGH.Optimizer)
+model = Model(HiGHS.Optimizer)
 
 ## Configurar as variáveis
 @variable(model, x_1 >= 0)
