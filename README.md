@@ -24,7 +24,7 @@ winget install --id=Anaconda.Anaconda3  -e
 
 
 
-[Winget Anaconda](https://github.com/Daniel-C-Fernandes/julia/blob/img/3.wingetAnaconda.png)
+![Winget Anaconda](https://github.com/Daniel-C-Fernandes/julia/blob/img/3.wingetAnaconda.png)
 
 
 
@@ -52,7 +52,7 @@ winget install julia -s msstore
 
 
 
-[Winget julia](https://github.com/Daniel-C-Fernandes/julia/blob/img/4.julia.png)
+![Winget julia](https://github.com/Daniel-C-Fernandes/julia/blob/img/4.julia.png)
 
 
 
