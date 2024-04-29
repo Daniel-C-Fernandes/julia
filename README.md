@@ -184,11 +184,7 @@ Pkg.add("JuMP")
 ```
 
 ```
-Pkg.add("Gurobi")
-```
-
-```
-Pkg.build("HiGH")
+Pkg.add("HiGH")
 ```
 
 ## 5. Testando
@@ -249,22 +245,22 @@ $10x_1+3x_2\leq 30$
 
 ```
 ## Importar pacotes necessários
-using JuMP, Gurobi
+using JuMP, HiGH
 
 ## Estabelecer o modelo para otimização
-model = Model(Gurobi.Optimizer)
+model = Model(HiGH.Optimizer)
 
 ## Configurar as variáveis
 @variable(model, x_1 >= 0)
 @variable(model, x_2 >= 0)
 
+## Configurar a função objetivo
+@objective(model, Max, 2*x_1+x_2)
+
 ## Configurar as restrições
 @constraint(model, c1, 5*x_1+6*x_2 <= 30)
 @constraint(model, c2, 3*x_1+2*x_2 <= 12)
 @constraint(model, c3, 10*x_1+3*x_2 <= 30)
-
-## Configurar a função objetivo
-@objective(model, Max, 2*x_1+x_2)
 
 # Otimizar o modelo
 optimize!(model)
