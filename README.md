@@ -3,7 +3,7 @@ Tutorial Julia
 
 # Jupyter Notebook + Julia
 
-## ---------------- ## --------------------------
+--
 ## Instalação pelo prompt de comando:
 
 Abra o Windows PowerShell:
