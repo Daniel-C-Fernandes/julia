@@ -1,6 +1,14 @@
 # Linguagem JULIA
 
-Tutorial de instalação
+Tutorial de instalação:
+
+1. Instalação do Anaconda pelo windows powershell
+2. Instalação do Julia pelo windows powershell
+3. Instalação do Anaconda pelo modo gráfico
+4. Instalação do Julia pelo modo gráfico
+5. Julia "Hello World"
+6. Integração da linguagem Julia no jupyter-notebook
+7. Exemplo de otimização
 
 # Jupyter Notebook + Julia
 
