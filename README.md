@@ -3,7 +3,8 @@ Tutorial Julia
 
 # Jupyter Notebook + Julia
 
---
+<hr>
+
 ## Instalação pelo prompt de comando:
 
 Abra o Windows PowerShell:
@@ -14,8 +15,15 @@ Abra o Windows PowerShell:
 
 ## 1. Anaconda (Jupyter Notebook)
 
+Inclua o comando de instalação winget no prompt do PowerShell (se necessário execute como administrador):
 
+````
 winget install --id=Anaconda.Anaconda3  -e
+````
+
+### Teste a instalação (Anaconda):
+
+
 jupyter-notebook
 ou
 jupyter-lab
@@ -26,11 +34,18 @@ jupyter-lab
 
 ## 2. Julia
 
-winget install julia -s msstore
+Inclua o comando de instalação winget no prompt do PowerShell (se necessário execute como administrador):
 
-julia
-using Pkg
-Pkg.add("IJulia")
+````
+winget install julia -s msstore
+````
+
+
+### Teste a instalação (Julia):
+
+
+## 3. Integrando Anaconda + Julia
+
 
 
 ## ---------------- ## --------------------------
