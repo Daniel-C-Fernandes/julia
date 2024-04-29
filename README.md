@@ -248,9 +248,9 @@ Crie um novo notebook, onde modelaremos o nosso primeiro modelo de otimização 
 
 max $x_1+2x_2$
 
-$5x_1+6x_2\leq 30$\\
+$5x_1+6x_2\leq 30$
 
-$3x_1+2x_2\leq 12$\\
+$3x_1+2x_2\leq 12$
 
 $10x_1+3x_2\leq 30$
 
