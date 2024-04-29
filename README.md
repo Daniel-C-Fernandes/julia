@@ -1,4 +1,5 @@
-# julia
+#Linguagem JULIA
+
 Tutorial Julia
 
 # Jupyter Notebook + Julia
@@ -17,38 +18,56 @@ Abra o Windows PowerShell:
 
 Inclua o comando de instalação winget no prompt do PowerShell (se necessário execute como administrador):
 
-````
+```
 winget install --id=Anaconda.Anaconda3  -e
-````
+```
 
-### Teste a instalação (Anaconda):
 
+
+[Winget Anaconda](https://github.com/Daniel-C-Fernandes/julia/blob/img/3.wingetAnaconda.png)
+
+
+
+No prompt de comando digite o seguinte para inicializar:
+
+```
 
 jupyter-notebook
+
+```
+
 ou
+
+```
 jupyter-lab
-
-
-
-
+```
 
 ## 2. Julia
 
 Inclua o comando de instalação winget no prompt do PowerShell (se necessário execute como administrador):
 
-````
+```
 winget install julia -s msstore
-````
-
-
-### Teste a instalação (Julia):
-
-
-## 3. Integrando Anaconda + Julia
+```
 
 
 
-## ---------------- ## --------------------------
+[Winget julia](https://github.com/Daniel-C-Fernandes/julia/blob/img/4.julia.png)
+
+
+
+No prompt de comando digite o seguinte para inicializar:
+
+```
+julia
+```
+
+### 3. Integrando Anaconda + Julia
+
+<a href="#Config"> Seguir para o tutorial de inicialização e integração.</a>
+
+<hr>
+
 ## Tutorial de Instalação - Aplicativos Gráficos
 
 ## 1. Anaconda (Jupyter Notebook)
@@ -61,7 +80,6 @@ Para isso, podemos pesquisar as palavras **anaconda download* ou acessar o link 
 
 ![f019c11f-a764-4fcd-a687-7e687cb5be8b](
 https://raw.githubusercontent.com/Daniel-C-Fernandes/Tutorial-Jupyter-Notebook-Julia-Gurobi/img/f019c11f-a764-4fcd-a687-7e687cb5be8b.png)
-
 
 Faça o download do instalador para Windows.
 
@@ -119,8 +137,9 @@ println("Olá Mundo!")
 
 Pronto, temos o *Jupyter Notebook* e a linguagem *julia* instalados.
 
+<div id="config">
 ## 4. Configurando tudo - Dentro do ambiente julia
-
+<div>
 Agora integraremos tudo.
 
 Acesse o console julia e vamos utilizar o comando *Pkg*:
@@ -141,6 +160,7 @@ Apenas para termos certeza que estamos com a última versão instalada em nosso 
 ```
 Pkg.update()
 ```
+
 Verifique a atualização:
 
 ```
@@ -200,6 +220,7 @@ Pkg.add("Homebrew")
 Pkg.build("Homebrew")
 Pkg.build("IJulia")
 ```
+
 ## Teste de uso para otimização
 
 Vamos agora acessar o *Jupyter Notebook* e otimizar nosso primeiro modelo. Verifique que agora há a opção *julia* para criação de um novo notebook:
@@ -264,3 +285,7 @@ objective_value(model)
 ```
 
 ```
+
+```
+
+
