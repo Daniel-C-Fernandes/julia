@@ -13,7 +13,7 @@ Tutorial de instalação:
 # Jupyter Notebook + Julia
 
 <hr>
-<div id="anaconda-install1"></div>
+
 ## Instalação pelo prompt de comando:
 
 Abra o Windows PowerShell:
@@ -23,6 +23,8 @@ Abra o Windows PowerShell:
 ![1](https://github.com/Daniel-C-Fernandes/julia/blob/img/2.powershell.png)
 
 ## 1. Anaconda (Jupyter Notebook)
+
+<div id="anaconda-install1"></div>
 
 Inclua o comando de instalação winget no prompt do PowerShell (se necessário execute como administrador):
 
