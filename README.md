@@ -3,7 +3,29 @@ Tutorial Julia
 
 # Jupyter Notebook + Julia
 
-## Tutorial de Instalação
+## ---------------- ## --------------------------
+## Instalação pelo prompt de comando:
+
+Abra o Windows PowerShell:
+
+
+
+
+## 1. Anaconda (Jupyter Notebook)
+
+
+
+
+
+## 2. Julia
+
+
+
+
+
+
+## ---------------- ## --------------------------
+## Tutorial de Instalação - Aplicativos Gráficos
 
 ## 1. Anaconda (Jupyter Notebook)
 
