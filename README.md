@@ -8,8 +8,9 @@ Tutorial Julia
 
 Abra o Windows PowerShell:
 
-![1](https://github.com/Daniel-C-Fernandes/julia/img/1.powershell.png)
+![1](https://github.com/Daniel-C-Fernandes/julia/blob/img/1.powershell.png)
 
+![1](https://github.com/Daniel-C-Fernandes/julia/blob/img/2.powershell.png)
 
 ## 1. Anaconda (Jupyter Notebook)
 
