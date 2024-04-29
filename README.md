@@ -1,6 +1,6 @@
 # Linguagem JULIA
 
-Tutorial Julia
+Tutorial de instalação
 
 # Jupyter Notebook + Julia
 
