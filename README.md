@@ -2,14 +2,14 @@
 Tutorial Julia
 
 # Jupyter Notebook + Julia
-
 --
 ## Instalação pelo prompt de comando:
 
 Abra o Windows PowerShell:
 
+img/1.powershell.png
 
-
+img/2.powershell.png
 
 ## 1. Anaconda (Jupyter Notebook)
 
