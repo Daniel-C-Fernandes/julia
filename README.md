@@ -246,10 +246,7 @@ Vamos agora acessar o *Jupyter Notebook* e otimizar nosso primeiro modelo. Verif
 
 Crie um novo notebook, onde modelaremos o nosso primeiro modelo de otimização para solução usando o solver HiGHS:
 
-
-\begin{equation}
-   x_1+2x_2
-\end{equation}
+max $x_1+2x_2$
 
 \begin{equation}
   \text{s.a. }\begin{matrix}
