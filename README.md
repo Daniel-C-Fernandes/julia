@@ -7,9 +7,9 @@ Tutorial Julia
 
 Abra o Windows PowerShell:
 
-img/1.powershell.png
+![](img/1.powershell.png)
 
-img/2.powershell.png
+![](img/2.powershell.png)
 
 ## 1. Anaconda (Jupyter Notebook)
 
