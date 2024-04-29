@@ -119,6 +119,8 @@ Faça o download do instalador para Windows e execute-o.
 
 A linguagem *julia* foi instalada.
 
+<div id="config"></div>
+
 Acesse o prompt pelo link.
 
 ![1b16b625-2e42-40b2-a76b-8bfbe58eeee2](https://raw.githubusercontent.com/Daniel-C-Fernandes/Tutorial-Jupyter-Notebook-Julia-Gurobi/img/1b16b625-2e42-40b2-a76b-8bfbe58eeee2.png)
@@ -137,9 +139,9 @@ println("Olá Mundo!")
 
 Pronto, temos o *Jupyter Notebook* e a linguagem *julia* instalados.
 
-<div id="config">
+
 ## 4. Configurando tudo - Dentro do ambiente julia
-<div>
+
 Agora integraremos tudo.
 
 Acesse o console julia e vamos utilizar o comando *Pkg*:
