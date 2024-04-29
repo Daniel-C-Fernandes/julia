@@ -1,6 +1,14 @@
 # Linguagem JULIA
 
-Tutorial de instalação
+Tutorial de instalação:
+
+1. <a href="#anaconda-install1">Instalação do Anaconda pelo windows powershell</a>
+2. <a href="#julia-install1">Instalação do Julia pelo windows powershell</a>
+3. <a href="#anaconda-install2">Instalação do Anaconda pelo modo gráfico</a>
+4. <a href="#julia-install2">Instalação do Julia pelo modo gráfico</a>
+5. <a href="#julia-hello">Julia "Hello World"</a>
+6. <a href="#int">Integração da linguagem Julia no jupyter-notebook</a>
+7. <a href="#exemplo">Exemplo de otimização</a>
 
 # Jupyter Notebook + Julia
 
@@ -15,6 +23,8 @@ Abra o Windows PowerShell:
 ![1](https://github.com/Daniel-C-Fernandes/julia/blob/img/2.powershell.png)
 
 ## 1. Anaconda (Jupyter Notebook)
+
+<div id="anaconda-install1"></div>
 
 Inclua o comando de instalação winget no prompt do PowerShell (se necessário execute como administrador):
 
@@ -43,7 +53,7 @@ jupyter-lab
 ```
 
 ## 2. Julia
-
+<div id="julia-install1"></div>
 Inclua o comando de instalação winget no prompt do PowerShell (se necessário execute como administrador):
 
 ```
@@ -71,6 +81,8 @@ julia
 ## Tutorial de Instalação - Aplicativos Gráficos
 
 ## 1. Anaconda (Jupyter Notebook)
+
+<div id="anaconda-install2"></div>
 
 Primeiramente, deveremos baixar o instalador de *Jupyter Notebook*.
 
@@ -105,6 +117,8 @@ Feche o Jupyter Notebook e o Anaconda.
 
 ## 2. Julia
 
+<div id="julia-install2"></div>
+
 Agora, deveremos baixar o instalador da linguagem *Julia*.
 
 Para isso, podemos pesquisar as palavras *julia lang* ou acessar o link abaixo:
@@ -120,6 +134,7 @@ Faça o download do instalador para Windows e execute-o.
 A linguagem *julia* foi instalada.
 
 <div id="config"></div>
+<div id="julia-hello"></div>
 
 Acesse o prompt pelo link.
 
@@ -141,6 +156,8 @@ Pronto, temos o *Jupyter Notebook* e a linguagem *julia* instalados.
 
 
 ## 4. Configurando tudo - Dentro do ambiente julia
+
+<div id="int"></div>
 
 Agora integraremos tudo.
 
@@ -220,6 +237,8 @@ Pkg.build("IJulia")
 ```
 
 ## Teste de uso para otimização
+
+<div id="exemplo"></div>
 
 Vamos agora acessar o *Jupyter Notebook* e otimizar nosso primeiro modelo. Verifique que agora há a opção *julia* para criação de um novo notebook:
 
