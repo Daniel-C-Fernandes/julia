@@ -14,14 +14,22 @@ Abra o Windows PowerShell:
 ## 1. Anaconda (Jupyter Notebook)
 
 
+winget install --id=Anaconda.Anaconda3  -e
+jupyter-notebook
+ou
+jupyter-lab
+
+
 
 
 
 ## 2. Julia
 
+winget install julia -s msstore
 
-
-
+julia
+using Pkg
+Pkg.add("IJulia")
 
 
 ## ---------------- ## --------------------------
