@@ -248,17 +248,17 @@ Crie um novo notebook, onde modelaremos o nosso primeiro modelo de otimização 
 
 
 \begin{equation}
-  \text{max }x_1+2x_2
+   x_1+2x_2
 \end{equation}
-
-
 
 \begin{equation}
-\left\{\begin{matrix}
-5x & + & 3y & = & 121 \\
--2x & +& 4y & = & 66
-\end{matrix}\right.
+  \text{s.a. }\begin{matrix}
+  5x_1+6x_2\leq 30\\
+  3x_1+2x_2\leq 12\\
+  10x_1+3x_2\leq 30\\
+  \end{matrix}
 \end{equation}
+
 
 ![cbe1ff25-d5e6-448c-9045-c23c09ec66c7](https://raw.githubusercontent.com/Daniel-C-Fernandes/Tutorial-Jupyter-Notebook-Julia-Gurobi/img/cbe1ff25-d5e6-448c-9045-c23c09ec66c7.png)
 
