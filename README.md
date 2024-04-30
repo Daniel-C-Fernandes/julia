@@ -244,9 +244,7 @@ Vamos agora acessar o *Jupyter Notebook* e otimizar nosso primeiro modelo. Verif
 
 ![0d13d18a-11da-476d-b4e8-bea9d37b8b51](https://raw.githubusercontent.com/Daniel-C-Fernandes/Tutorial-Jupyter-Notebook-Julia-Gurobi/img/0d13d18a-11da-476d-b4e8-bea9d37b8b51.png)
 
-Crie um novo notebook, onde modelaremos o nosso primeiro modelo de otimização para solução usando o Gurobi:
-
-
+Crie um novo notebook, onde modelaremos o nosso primeiro modelo de otimização para solução usando o solver HiGHS:
 
 max $x_1+2x_2$
 
@@ -255,7 +253,6 @@ $5x_1+6x_2\leq 30$
 $3x_1+2x_2\leq 12$
 
 $10x_1+3x_2\leq 30$
-
 
 
 ![cbe1ff25-d5e6-448c-9045-c23c09ec66c7](https://raw.githubusercontent.com/Daniel-C-Fernandes/Tutorial-Jupyter-Notebook-Julia-Gurobi/img/cbe1ff25-d5e6-448c-9045-c23c09ec66c7.png)
