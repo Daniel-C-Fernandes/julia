@@ -2,15 +2,42 @@
 
 Tutorial de instalação:
 
-1. <a href="#anaconda-install1">Instalação do Anaconda pelo windows powershell</a>
-2. <a href="#julia-install1">Instalação do Julia pelo windows powershell</a>
-3. <a href="#anaconda-install2">Instalação do Anaconda pelo modo gráfico</a>
+1. <a href="#julia-install1">Instalação do Julia pelo windows powershell</a>
+2. <a href="#anaconda-install1">Instalação do Anaconda pelo windows powershell</a>
+3. <a href="#vscode-install1">Instalação do Vs Code pelo windows powershell</a>
+
+<hr>
+
 4. <a href="#julia-install2">Instalação do Julia pelo modo gráfico</a>
+5. <a href="#anaconda-install2">Instalação do Anaconda pelo modo gráfico</a>
+
+<hr>
+
 5. <a href="#julia-hello">Julia "Hello World"</a>
 6. <a href="#int">Integração da linguagem Julia no jupyter-notebook</a>
 7. <a href="#exemplo">Exemplo de otimização</a>
 
-# Jupyter Notebook + Julia
+# Julia + Jupyter Notebook + VS Code
+
+<hr>
+
+Para versões \emph{Windows}, utilize o Prompt de comando \emph{PowerShell} para inserir o comando de instalação a seguir:
+
+```
+winget install julia -s msstore
+winget install --id=Anaconda.Anaconda3 -e
+winget install -e --id Microsoft.VisualStudioCode
+```
+
+Para versões \emph{Linux}, \emph{Ubuntu} ou \emph{Debian}, basta utilizar os comandos a seguir e esperar a instalação:
+
+```
+sudo apt install julia -y
+sudo apt install wget
+wget https://repo.anaconda.com/archive/Anaconda3-2024.06-1-Linux-x86_64.sh
+bash Anaconda3-2024.06-1-Linux-x86_64.sh
+sudo snap install --classic code
+```
 
 <hr>
 
