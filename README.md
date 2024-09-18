@@ -21,7 +21,7 @@ Tutorial de instalação:
 
 <hr>
 
-Para versões \emph{Windows}, utilize o Prompt de comando \emph{PowerShell} para inserir o comando de instalação a seguir:
+Para versões <i>Windows</i>, utilize o Prompt de comando <i>PowerShell</i> para inserir o comando de instalação a seguir:
 
 ```
 winget install julia -s msstore
@@ -29,7 +29,7 @@ winget install --id=Anaconda.Anaconda3 -e
 winget install -e --id Microsoft.VisualStudioCode
 ```
 
-Para versões \emph{Linux}, \emph{Ubuntu} ou \emph{Debian}, basta utilizar os comandos a seguir e esperar a instalação:
+Para versões <i>Linux</i>, <i>Ubuntu</i> ou <i>Debian</i>, basta utilizar os comandos a seguir e esperar a instalação:
 
 ```
 sudo apt install julia -y
