@@ -1,5 +1,16 @@
 # Linguagem JULIA
 
+Documento com a descrição do uso da linguagem Julia utilizada:
+
+<a href="">Documento Julia</a>
+
+<hr>
+
+Notebooks utilizados
+
+<a href="">Notebooks utilizados</a>
+
+<hr>
 Tutorial de instalação:
 
 1. <a href="#julia-install1">Instalação do Julia pelo windows powershell</a>
