@@ -16,13 +16,13 @@
 
 3. Documento com a descrição do uso da linguagem Julia:
 
-<a href="https://github.com/Daniel-C-Fernandes/julia/blob/main/selmat/documento.pdf">Documento Julia</a>
+<a href="https://github.com/Daniel-C-Fernandes/julia/blob/main/selmat/introducao-julia.ipynb">Documento Julia</a>
 
 <hr>
 
 4. Apresentação da linguagem Julia utilizando Jupyter Notebook:
 
-<a href="https://github.com/Daniel-C-Fernandes/julia/blob/main/selmat/exemplos.ipynb">Exemplos de utilização</a>
+<a href="https://github.com/Daniel-C-Fernandes/julia/blob/main/selmat/Mini-curso-Julia.ipynb">Exemplos de utilização</a>
 
 <hr>
 
