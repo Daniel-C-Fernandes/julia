@@ -20,13 +20,19 @@
 
 <hr>
 
-4. Apresentação da linguagem Julia utilizando Jupyter Notebook:
+4. Exemplos desenvolvidos no Mini-curso:
+
+<a href="https://github.com/Daniel-C-Fernandes/julia/blob/main/selmat/apresentacao.ipynb">Exemplos de utilização</a>
+
+<hr>
+
+5. Apresentação da linguagem Julia utilizando Jupyter Notebook:
 
 <a href="https://github.com/Daniel-C-Fernandes/julia/blob/main/selmat/Mini-curso-Julia.ipynb">Exemplos de utilização</a>
 
 <hr>
 
-5. Atividade desenvolvida pelos participantes:
+6. Atividades (exercícios):
 
 <a href="https://github.com/Daniel-C-Fernandes/julia/blob/main/selmat/exercicios.ipynb">Exercícios Propostos</a>
 
