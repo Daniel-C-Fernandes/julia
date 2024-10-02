@@ -22,13 +22,13 @@
 
 4. Atividades desenvolvidas no minicurso:
 
-<a href="https://github.com/Daniel-C-Fernandes/julia/blob/main/selmat/apresentacao.ipynb">Atividade desenvolvida</a>
+<a href="https://github.com/Daniel-C-Fernandes/julia/blob/main/selmat/apresentacao.ipynb">Atividades desenvolvidas</a>
 
 <hr>
 
-5. Exercícios Propostos:
+5. Outras atividades propostas:
 
-<a href="https://github.com/Daniel-C-Fernandes/julia/blob/main/selmat/exercicios.ipynb">Exercícios Propostos</a>
+<a href="https://github.com/Daniel-C-Fernandes/julia/blob/main/selmat/exercicios.ipynb">Atividades propostas</a>
 
 <hr>
 
