@@ -8,7 +8,7 @@
 
 <hr>
 
-2. Apresentação do Mini-curso:
+2. Apresentação do minicurso:
 
 <a href="https://github.com/Daniel-C-Fernandes/julia/blob/main/selmat/Mini_curso_Julia.pdf">Apresentação de slides</a>
 
@@ -20,13 +20,13 @@
 
 <hr>
 
-4. Exemplos desenvolvidos no Mini-curso:
+4. Atividades desenvolvidas no minicurso:
 
 <a href="https://github.com/Daniel-C-Fernandes/julia/blob/main/selmat/apresentacao.ipynb">Atividade desenvolvida</a>
 
 <hr>
 
-5. Atividades (exercícios):
+5. Exercícios Propostos:
 
 <a href="https://github.com/Daniel-C-Fernandes/julia/blob/main/selmat/exercicios.ipynb">Exercícios Propostos</a>
 
